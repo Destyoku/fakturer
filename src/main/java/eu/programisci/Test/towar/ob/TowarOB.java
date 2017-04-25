@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "test_towar")
+@Table(name = "test_towars")
 @SequenceGenerator(allocationSize = 1, name = "SEKWENCJA", sequenceName = "gen_test_towars_id")
 public class TowarOB {
 

@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "test_kontrahent")
+@Table(name = "test_kontrahents")
 @SequenceGenerator(allocationSize = 1, name = "SEKWENCJA", sequenceName = "gen_test_kontrahents_id")
 public class KontrahentOB {
 
