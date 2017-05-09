@@ -67,6 +67,7 @@ public class ITowarServiceImpl implements ITowarService {
         ob.setVat(dto.getVat());
         return ob;
     }
+
     @Override
     public EJednostkaMiary[] getJednostkiMiary() {
         return EJednostkaMiary.values();

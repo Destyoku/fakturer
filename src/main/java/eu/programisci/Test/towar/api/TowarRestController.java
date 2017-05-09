@@ -40,7 +40,7 @@ public class TowarRestController {
         return towarService.save(aUserDTO);
     }
 
-    @RequestMapping(value = "/getJednostkiMairy", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @RequestMapping(value = "/getJednostkiMiary", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public EJednostkaMiary[] getJednostkiMiary(){
         return towarService.getJednostkiMiary();
     }

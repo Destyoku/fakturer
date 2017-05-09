@@ -3,5 +3,7 @@ package eu.programisci.Test.towar.enums;
 public enum EJednostkaMiary {
     LITR,
     KILOGRAM,
-    SZTUKA
+    SZTUKA,
+    METR_BIEZACY,
+    METR_KWADRATOWY
 }
