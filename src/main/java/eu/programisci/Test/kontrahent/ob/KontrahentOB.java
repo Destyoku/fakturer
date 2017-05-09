@@ -19,8 +19,11 @@ public class KontrahentOB {
     @Column(name = "nazwa")
     private String nazwa;
 
-    @Column(name = "lastname")
-    private String lastname;
+    @Column(name = "adres")
+    private String adres;
+
+    @Column(name = "nip")
+    private String nip;
 
     public Long getId() {
         return id;
@@ -46,12 +49,12 @@ public class KontrahentOB {
         this.nazwa = nazwa;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getAdres() {
+        return adres;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setAdres(String adres) {
+        this.adres = adres;
     }
 
     public String getNip() {
@@ -62,6 +65,4 @@ public class KontrahentOB {
         this.nip = nip;
     }
 
-    @Column(name = "nip")
-    private String nip;
 }
